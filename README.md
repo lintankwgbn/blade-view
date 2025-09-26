@@ -50,6 +50,6 @@ A simple Blade template could look like this:
     </body>
     </html>
 
-### How To Install
+### Composer Install
     composer require lintankwgbn/blade-view
 
