@@ -12,7 +12,7 @@ if (! function_exists('view')) {
     function view(string $view, array $data = [])
     {
         $viewsPath = __DIR__ . '/views';
-        $cachePath = dirname(__DIR__) . '/cache';
+        $cachePath = __DIR__ . '/cache';
         $blade = new Blade($viewsPath, $cachePath);
 
         return $blade->render($view, $data);
