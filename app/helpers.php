@@ -11,9 +11,9 @@ if (! function_exists('view')) {
      */
     function view(string $view, array $data = [])
     {
-        $cachePath = __DIR__ . '/cache';
         $viewsPath = __DIR__ . '/views';
-        $blade = new Blade($cachePath, $viewsPath);
+        $cachePath = dirname(__DIR__) . '/cache';
+        $blade = new Blade($viewsPath, $cachePath);
 
         return $blade->render($view, $data);
     }
