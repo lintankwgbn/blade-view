@@ -1,6 +1,6 @@
 # Blade View Template
 
-## This is a Blade Index Page
+## About Blade View Template
 
 An index page is the main entry point to a website, often called a homepage or landing page, that serves as the primary gateway for visitors.
 It provides an overview of the site's content and includes navigation to guide users to other pages.
