@@ -50,4 +50,3 @@ A simple Blade template could look like this:
     </body>
     </html>
 
-## License by MIT
