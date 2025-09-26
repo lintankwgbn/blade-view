@@ -6,7 +6,7 @@
     <title>{{ $title }}</title>
 </head>
 <body>
-    <h1>{{ $subtitle }}</h1>
+    <h1>{{ $greeting }}</h1>
     <p>{!! $description !!}</p>
 </body>
 </html>
