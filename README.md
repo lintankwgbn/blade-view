@@ -49,3 +49,5 @@ A simple Blade template could look like this:
         @endif
     </body>
     </html>
+
+## License by MIT
