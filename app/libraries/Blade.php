@@ -22,10 +22,10 @@ class Blade
 
     /**
      * Create a new blade instance.
-     * @param array|string $viewsPath
+     * @param mixed $viewsPath
      * @param string $cachePath
      */
-    public function __construct(array|string $viewsPath, string $cachePath)
+    public function __construct(mixed $viewsPath, string $cachePath)
     {
         $files = new Filesystem();
         $engines = new EngineResolver();
