@@ -1,5 +1,8 @@
 {
+    "name": "lintankwgbn/blade-view",
+    "description": "Blade is Laravel's simple yet powerful built-in templating engine that allows for dynamic view creation using simple syntax and familiar PHP",
     "require": {
+        "php": "^8.2",
         "illuminate/view": "^12.31"
     },
     "autoload": {
