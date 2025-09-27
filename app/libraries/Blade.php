@@ -18,7 +18,7 @@ class Blade
      * Factory view instance.
      * @var \Illuminate\Contracts\View\Factory
      */
-    private $factory;
+    protected $factory;
 
     /**
      * Create a new blade instance.
