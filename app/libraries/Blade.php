@@ -15,7 +15,7 @@ use Illuminate\View\FileViewFinder;
 class Blade
 {
     /**
-     * Factory view instance.
+     * View factory instance.
      * @var \Illuminate\Contracts\View\Factory
      */
     protected $factory;
